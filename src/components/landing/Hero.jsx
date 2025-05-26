@@ -5,7 +5,7 @@ export const Hero = () => {
     <div className="bg-gradient-to-b from-white via-blue to-blue-50">
       <header className="min-h-screen flex flex-col items-center justify-center text-center px-4">
         <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-800 md:text-5xl lg:text-6xl">
-          Layanan <span className="text-blue-600">Manajemen Apotek</span> Modern 💊
+          Solusi <span className="text-blue-600">Manajemen Apotek</span> Modern 💊
         </h1>
 
         <p className="mb-8 text-lg lg:text-xl sm:space-y-0 sm:space-x-4">

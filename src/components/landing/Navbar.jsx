@@ -56,8 +56,8 @@ export const Navbar = () => {
             <div className="md:hidden bg-white px-4 pb-4 space-y-3 absolute top-[100%] left-0 w-full shadow-md">
               <Link to="#home" className="block text-gray-700 hover:text-blue-400">Home</Link>
               <Link to="#help" className="block text-gray-700 hover:text-blue-400">Help</Link>
-              <Link to="#signup" className="block text-gray-700 hover:text-blue-400">Sign Up</Link>
-              <Link to="/login" className="block bg-blue-400 text-white px-4 py-2 rounded-2xl text-center hover:bg-white border border-blue-400 hover:text-blue-400">Login</Link>
+              <Link to="#signup" className="block bg-transparent text-blue-400 px-4 py-2 rounded-2xl text-center border border-blue-400 hover:bg-blue-400 hover:text-white">Sign Up</Link>
+              <Link to="/login" className="block bg-transparent text-blue-400 px-4 py-2 rounded-2xl text-center border border-blue-400  hover:bg-blue-400 hover:text-white">Login</Link>
             </div>
           )}
 
