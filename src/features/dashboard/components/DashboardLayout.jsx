@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Outlet } from "react-router-dom";
-import { Sidebar } from "../../components/Sidebar";
-import { Header } from "../../components/Header";
+import { Sidebar } from "./Sidebar";
+import { Header } from "./components/Header";
 
 export const DashboardLayout = () => {
   const [isSidebarOpen, setSidebarOpen] = useState(false);
@@ -46,8 +46,8 @@ export const DashboardLayout = () => {
       {/* Main content area */}
       <div
         className={`transition-all duration-300 ease-in-out ${
-          isSidebarOpen 
-            ? isCollapsed 
+          isSidebarOpen
+            ? isCollapsed
               ? "lg:ml-16 md:ml-16" // Collapsed sidebar width
               : "lg:ml-64 md:ml-64" // Full sidebar width
             : "ml-0" // No sidebar

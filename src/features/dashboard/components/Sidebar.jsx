@@ -27,7 +27,7 @@ export const Sidebar = ({
       label: "Users",
     },
     {
-      path: "/dashboard/lab",
+      path: "/dashboard/managedrugs",
       icon: FlaskConical,
       label: "Laboratory",
     },
