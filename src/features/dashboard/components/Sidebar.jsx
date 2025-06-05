@@ -2,9 +2,9 @@ import { Link, useLocation } from "react-router-dom";
 import {
   BarChart3,
   Users,
-  FlaskConical,
   ChevronLeft,
   User,
+  Pill,
 } from "lucide-react";
 
 export const Sidebar = ({
@@ -28,8 +28,8 @@ export const Sidebar = ({
     },
     {
       path: "/dashboard/managedrugs",
-      icon: FlaskConical,
-      label: "Laboratory",
+      icon: Pill,
+      label: "Manage Drugs",
     },
   ];
 
@@ -63,7 +63,7 @@ export const Sidebar = ({
               </div>
               <span className="font-bold text-xl text-gray-800">
                 <span className="text-blue-400">Pharma</span>
-                <span className="text-gray-600">System</span>
+                <span className="text-gray-800">System</span>
               </span>
             </div>
           )}
@@ -79,8 +79,8 @@ export const Sidebar = ({
             onClick={() => setIsCollapsed(!isCollapsed)}
             className="hidden lg:block p-1 rounded-md hover:bg-gray-100 transition-colors"
           >
-            <ChevronLeft
-              className={`w-5 h-5 text-gray-500 transition-transform ${
+            <ChevronLeft size={28}
+              className={`text-gray-500 transition-transform ${
                 isCollapsed ? "rotate-180" : ""
               }`}
             />

@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Outlet } from "react-router-dom";
 import { Sidebar } from "./Sidebar";
-import { Header } from "./components/Header";
+import { Header } from "./Header";
 
 export const DashboardLayout = () => {
   const [isSidebarOpen, setSidebarOpen] = useState(false);

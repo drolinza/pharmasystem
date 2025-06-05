@@ -42,16 +42,16 @@ export const Header = ({ setSidebarOpen, isSidebarOpen }) => {
             <input
               type="text"
               placeholder="Search..."
-              className="pl-10 pr-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+              className="pl-10 pr-4 py-2 border border-gray-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
             />
             <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
-              <Search className="h-5 w-5 text-gray-400" />
+              <Search className="h-5 w-5 text-gray-500" />
             </div>
           </div>
         </div>
 
         {/* Notifications */}
-        <button className="p-2 rounded-full hover:bg-gray-100 transition-colors relative">
+        <button className="p-2 rounded-full hover:bg-gray-300 transition-colors relative">
           <Bell className="w-6 h-6 text-gray-600" />
           {/* Notification badge */}
           <span className="absolute -top-1 -right-1 h-4 w-4 bg-red-500 text-white text-xs rounded-full flex items-center justify-center">
@@ -61,7 +61,7 @@ export const Header = ({ setSidebarOpen, isSidebarOpen }) => {
 
         {/* User profile dropdown */}
         <div className="relative">
-          <button className="flex items-center space-x-3 p-2 rounded-lg hover:bg-gray-100 transition-colors">
+          <button className="flex items-center space-x-3 p-2 rounded-xl hover:bg-gray-200 transition-colors">
             <div className="w-8 h-8 bg-gray-300 rounded-full flex items-center justify-center">
               <User className="w-4 h-4 text-gray-600" />
             </div>

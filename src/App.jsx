@@ -4,10 +4,10 @@ import { LandingPage } from "./features/landing/pages/LandingPage";
 import { Signup } from "./features/auth/pages/Signup";
 import { Login } from "./features/auth/pages/Login";
 import { PrivateRoute } from "./router/PrivateRoute";
-import { DashboardLayout } from "./features/dashboard/DashboardLayout";
+import { DashboardLayout } from "./features/dashboard/components/DashboardLayout";
 import { DashboardOverview } from "./features/dashboard/components/DashboardOverview";
 import { UsersPage } from "./features/users/pages/UsersPage";
-import { ManageDrugs } from "./features/dashboard/ManageDrugs";
+import { ManageDrugs } from "./features/drugs/pages/ManageDrugs";
 
 function App() {
   return (

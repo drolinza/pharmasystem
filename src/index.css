@@ -7,8 +7,6 @@
   --font-semibold: 600;
   --font-bold: 700;
   --font-extrabold: 800;
-  
-  --text-sm: 
 
   --color-blue-100: #ebf8ff;
   --color-blue-200: #bee3f8;
@@ -34,7 +32,10 @@
   --color-gray-800: #2d3748;
   --color-gray-900: #1a202c;
 
-  
+  --color-primary: var(--color-blue-400);
+  --color-secondary: var(--color-blue-500);
+  --color-text: var(--color-gray-800);
+
 
   --spacing-1: 0.25rem;
   --spacing-2: 0.5rem;
@@ -84,13 +85,13 @@ body::-webkit-scrollbar {
   h1 {
     font-size: 2rem;
     font-weight: var(--font-bold);
-    color: var(--color-gray-700);
+    color: var(--color-gray-800);
   }
 
   h2 {
     font-size: 1.5rem;
-    font-weight: var(--font-bold);
-    color: var(--color-gray-700);
+    font-weight: var(--font-semibold);
+    color: var(--color-gray-800);
   }
 
   h3 {
